@@ -95,6 +95,7 @@ body {
 .boxes {
     text-align: center;
     gap: 20px;
+    padding-bottom: 48px;
 }
 
 .r-image {
@@ -105,4 +106,76 @@ body {
     margin: 25px;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.quote-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 80px;
+}
+
+.quote {
+    font-size: 23px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-quoter {
+    display: flex;
+    justify-content: end;
+}
+
+.quoter {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-up-body {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(32, 108, 221);
+    padding: 28px;
+    width: 100%;
+    border-radius: 2%;
+}
+
+.blue-box-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.blue-sign-up-button {
+    background-color: rgb(32, 108, 221);
+    border-color: white;
+    border:2px;
+    border-style: solid;
+}
+
+.call {
+    margin: 0%;
+    font-size: 23px;
+    font-weight: 200px;
+}
+
+.call-text{
+    margin: 0%;
+}
+
+footer {
+    text-align: center;
+    padding: 2%;
+    background-color: rgb(28, 28, 34);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
